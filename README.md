@@ -1,4 +1,7 @@
 # solid-journey
+- [Nuxt.js](https://nuxtjs.org/) Universal Vue.js Applications
+- Test & build with [Travis-CI](https://docs.travis-ci.com/)
+- Deploy to [Github Pages](https://pages.github.com/)
 
 > Nuxt.js project
 
