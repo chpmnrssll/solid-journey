@@ -2,22 +2,19 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h1 class="title">
-        solid-journey
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+      <h1 class="title">solid-journey</h1>
+      <h2 class="subtitle">A Nuxt.js Project</h2>
+      <ul class="list">
+        <li><a href="https://nuxtjs.org/">Nuxt.js</a></li>
+        <li><a href="https://docs.docker.com/compose/">Docker Compose</a></li>
+        <li><a href="https://www.docker.com/">Docker</a></li>
+        <li><a href="https://docs.travis-ci.com/">Travis-CI</a></li>
+        <li><a href="https://pages.github.com/">Github Pages</a></li>
+        <li><a href="https://developers.google.com/search/docs/guides/">Structured Data</a></li>
+        <li><a href="http://schema.org/">schema.org</a></li>
+        <li><a href="https://json-ld.org/">json-ld.org</a></li>
+        <li><a href="https://www.ampproject.org/learn/overview/">AMP</a></li>
+      </ul>
     </div>
   </section>
 </template>
@@ -58,7 +55,7 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
+.list {
+  list-style: none;
 }
 </style>
